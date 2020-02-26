@@ -1,13 +1,10 @@
 import styled from "styled-components";
-import Link from "next/link";
 
 import breakpoints from "../shared/breakpoints";
 
-export const Logo = styled(Link)`
-  font-size: 1.6rem;
-  font-weight: 900;
-  text-transform: uppercase;
-`;
+import Twitter from "../../svgs/twitter.svg";
+import Instagram from "../../svgs/instagram.svg";
+import Github from "../../svgs/github.svg";
 
 export const LogoImg = styled.img`
   width: 6rem;
@@ -39,16 +36,30 @@ export const SocialWrapper = styled.div`
 
 export const IconsWrapper = styled.div`
   margin-left: 4rem;
-  img {
+  a {
     margin-left: 2.5rem;
+    color: inherit;
   }
 `;
 
-export const SocialIcon = styled.img`
+export const TwitterIcon = styled(Twitter)`
   &:hover {
     transform: scale(1.09);
-    background: ${({ theme }) => theme.colors.primary};
-    opacity: 0.3;
+    color: ${({ theme }) => theme.colors.primary};
+  }
+`;
+
+export const GithubIcon = styled(Github)`
+  &:hover {
+    transform: scale(1.09);
+    color: ${({ theme }) => theme.colors.primary};
+  }
+`;
+
+export const InstagramIcon = styled(Instagram)`
+  &:hover {
+    transform: scale(1.09);
+    color: ${({ theme }) => theme.colors.primary};
   }
 `;
 

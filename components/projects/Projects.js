@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 import {
   Wrapper,
@@ -13,32 +14,12 @@ import {
   StackItem,
   BlueCircle,
   StackText,
-  ProjectCtas
+  ProjectCtas,
+  Cta,
+  LinkIcon
 } from "./ProjectStyles";
 
-const projects = [
-  {
-    title: "weather app",
-    img: "https://source.unsplash.com/random/800x600/?coding,programming",
-    live: "/",
-    repo: "/",
-    stack: ["HTML", "CSS", "javascript"]
-  },
-  {
-    title: "food app",
-    img: "https://source.unsplash.com/random/800x600/?coding,programming",
-    live: "/",
-    repo: "/",
-    stack: ["HTML", "CSS", "javascript"]
-  },
-  {
-    title: "expense app",
-    img: "https://source.unsplash.com/random/800x600/?coding,programming",
-    live: "/",
-    repo: "/",
-    stack: ["HTML", "CSS", "javascript"]
-  }
-];
+import projects from "./projectsList";
 
 const Projects = () => {
   return (
@@ -71,6 +52,25 @@ const Projects = () => {
                 ))}
               </StackList>
             </ProjectDescription>
+
+            <ProjectCtas>
+              <Cta>
+                <Link href={project.live}>
+                  <a>
+                    <span>live url</span>
+                    <LinkIcon />
+                  </a>
+                </Link>
+              </Cta>
+              <Cta>
+                <Link href={project.repo}>
+                  <a>
+                    <span>github</span>
+                    <LinkIcon />
+                  </a>
+                </Link>
+              </Cta>
+            </ProjectCtas>
           </ProjectItem>
         ))}
       </ProjectsList>

@@ -34,9 +34,7 @@ export const SkillsList = styled.div`
   display: grid;
   grid-gap: 3rem;
 
-  ${breakpoints.tabSm} {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  grid-template-columns: repeat(2, 1fr);
 
   ${breakpoints.tabMd} {
     grid-template-columns: repeat(3, 1fr);
@@ -65,8 +63,7 @@ export const SkillText = styled.span`
   color: ${({ theme }) => theme.colors.text_dark};
   font-weight: 700;
   text-transform: capitalize;
-  margin-left: 1.5rem;
-  line-height: 2.8rem;
+  margin-left: 0.6rem;
   word-spacing: 0.3rem;
   letter-spacing: 0.03rem;
 `;

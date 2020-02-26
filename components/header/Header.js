@@ -9,35 +9,37 @@ import {
   Title,
   HorizontalLine,
   SocialWrapper,
-  SocialIcon,
+  TwitterIcon,
+  InstagramIcon,
+  GithubIcon,
   Wrapper
 } from "./HeaderStyles";
 
 const Home = () => {
   return (
     <>
-      <Logo href="/">
+      <Link href="/">
         <a>
           <LogoImg src="/assets/self_img.jpg" alt="my picture" />
         </a>
-      </Logo>
+      </Link>
       <Wrapper>
         <SocialWrapper>
           <HorizontalLine />
           <IconsWrapper>
             <Link href="/">
               <a>
-                <SocialIcon src="/assets/github.svg" alt="github logo" />
+                <GithubIcon />
               </a>
             </Link>
             <Link href="/">
               <a>
-                <SocialIcon src="/assets/twitter.svg" alt="twitter logo" />
+                <TwitterIcon />
               </a>
             </Link>
             <Link href="/">
               <a>
-                <SocialIcon src="/assets/instagram.svg" alt="instagram logo" />
+                <InstagramIcon />
               </a>
             </Link>
           </IconsWrapper>
