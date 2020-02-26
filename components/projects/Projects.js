@@ -43,15 +43,15 @@ const Projects = () => {
               quae quasi quos rerum repellat commodi, fugit omnis repellendus
               inventore alias, at ab odit optio magnam ipsum, accusantium iste
               itaque culpa deserunt reprehenderit vel id nostrum.
-              <StackList>
-                {project.stack.map((item, i) => (
-                  <StackItem key={i}>
-                    <BlueCircle></BlueCircle>
-                    <StackText>{item}</StackText>
-                  </StackItem>
-                ))}
-              </StackList>
             </ProjectDescription>
+            <StackList>
+              {project.stack.map((item, i) => (
+                <StackItem key={i}>
+                  <BlueCircle></BlueCircle>
+                  <StackText>{item}</StackText>
+                </StackItem>
+              ))}
+            </StackList>
 
             <ProjectCtas>
               <Cta>
