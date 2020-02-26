@@ -38,12 +38,7 @@ const Projects = () => {
           <ProjectItem key={i}>
             <ProjectImg src={project.img} alt={project.title} />
             <ProjectTitle>{project.title}</ProjectTitle>
-            <ProjectDescription>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-              quae quasi quos rerum repellat commodi, fugit omnis repellendus
-              inventore alias, at ab odit optio magnam ipsum, accusantium iste
-              itaque culpa deserunt reprehenderit vel id nostrum.
-            </ProjectDescription>
+            <ProjectDescription>{project.description}</ProjectDescription>
             <StackList>
               {project.stack.map((item, i) => (
                 <StackItem key={i}>
@@ -56,7 +51,7 @@ const Projects = () => {
             <ProjectCtas>
               <Cta>
                 <Link href={project.live}>
-                  <a>
+                  <a target="_blank">
                     <span>live url</span>
                     <LinkIcon />
                   </a>
@@ -64,7 +59,7 @@ const Projects = () => {
               </Cta>
               <Cta>
                 <Link href={project.repo}>
-                  <a>
+                  <a target="_blank">
                     <span>github</span>
                     <LinkIcon />
                   </a>

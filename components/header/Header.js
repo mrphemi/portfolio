@@ -27,17 +27,17 @@ const Home = () => {
         <SocialWrapper>
           <HorizontalLine />
           <IconsWrapper>
-            <Link href="/">
+            <Link href="//github.com/mrphemi">
               <a>
                 <GithubIcon />
               </a>
             </Link>
-            <Link href="/">
+            <Link href="//twitter.com/mrphemi">
               <a>
                 <TwitterIcon />
               </a>
             </Link>
-            <Link href="/">
+            <Link href="//www.instagram.com/mr_phemi/">
               <a>
                 <InstagramIcon />
               </a>
