@@ -26,10 +26,11 @@ const Skills = () => {
       <Heading>my skills</Heading>
 
       <Text>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione
-        recusandae eaque fugiat! Alias dicta labore tempore vero hic neque
-        aspernatur! Est, soluta fugit praesentium totam cupiditate culpa
-        blanditiis maiores pariatur itaque. Inventore eos officiis tempore.
+        Self development is very important as a software developer. Over the
+        years, I've learnt and added a couple of technologies to my skillset and
+        I plan to explore more technologies and add more skills under my belt.
+        Below are a list of technologies, tools and languages I've had some
+        experience with.
       </Text>
 
       <SkillsList>

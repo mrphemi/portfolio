@@ -48,6 +48,8 @@ export const ProjectItem = styled.div``;
 export const ProjectImg = styled.img`
   width: 100%;
   border-radius: 1rem;
+  box-shadow: 0 10px 15px -3px rgba(226, 232, 240, 1),
+    0 4px 6px -2px rgba(226, 232, 240, 1);
 `;
 
 export const ProjectTitle = styled(Heading)`
@@ -66,22 +68,13 @@ export const ProjectDescription = styled(Text)`
 
 export const StackList = styled.div`
   margin-top: 2rem;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 1.5rem;
-  grid-row-gap: 1.5rem;
-
-  ${breakpoints.tabSm} {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  ${breakpoints.desktop} {
-    grid-template-columns: repeat(4, 1fr);
-  }
+  display: flex;
+  flex-wrap: wrap;
 `;
 
 export const StackItem = styled.div`
   display: flex;
+  margin-right: 2rem;
 `;
 
 export const BlueCircle = styled.span`
@@ -94,7 +87,7 @@ export const BlueCircle = styled.span`
 `;
 
 export const StackText = styled.span`
-  font-size: 1rem;
+  font-size: 1.4rem;
   color: ${({ theme }) => theme.colors.text_dark};
   font-weight: 700;
   text-transform: capitalize;

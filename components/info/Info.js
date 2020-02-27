@@ -17,19 +17,16 @@ const Info = () => {
       </BannerWrapper>
       <TextWrapper>
         <Text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis harum
-          vitae sequi soluta eos molestias id necessitatibus nemo ullam tempora
-          laudantium voluptatum eum amet eveniet vero voluptate, a magni fugit,
-          hic recusandae? Placeat, laborum officia.
-          <br /> <br />
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-          voluptatibus hic perspiciatis ex.
+          Hey, I'm Kayode, a creative and detailed-oriented front end developer
+          with passion for building state-of-the-art, user-friendly websites and
+          applications.
         </Text>
 
         <Text>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum in
-          perferendis exercitationem laudantium. Ex vitae architecto similique
-          culpa blanditiis.
+          I love learning new and exciting things and improving my craft but
+          most of all, I'm a person who likes to have fun. I also enjoy watching
+          football and listening to good music. I also love watching anime and
+          playing video games.
         </Text>
       </TextWrapper>
     </>

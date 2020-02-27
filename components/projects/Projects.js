@@ -26,11 +26,8 @@ const Projects = () => {
     <Wrapper>
       <Heading>my projects</Heading>
       <Text>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel culpa
-        voluptas rerum commodi quisquam dolores, asperiores, molestiae, cum at
-        soluta ad aliquid minus a quas ducimus iusto odit! A repudiandae animi
-        voluptas error. Voluptate, veritatis. Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Necessitatibus quaerat eveniet id.
+        I try as much as possible to stay busy and always have a project in the
+        works. Take a look at some of the projects I've dedicated my time to.
       </Text>
 
       <ProjectsList>
