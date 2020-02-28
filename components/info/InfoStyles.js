@@ -24,9 +24,9 @@ export const BannerOverlay = styled.div`
 export const TextWrapper = styled.div`
   display: grid;
   margin-top: 4rem;
+  grid-gap: 3.5rem;
   ${breakpoints.tabMd} {
     grid-template-columns: 1fr 1fr;
-    grid-gap: 3.5rem;
   }
 `;
 
