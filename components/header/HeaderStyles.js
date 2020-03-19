@@ -3,7 +3,7 @@ import styled, { keyframes } from "styled-components";
 import breakpoints from "../shared/breakpoints";
 
 import Twitter from "../../svgs/twitter.svg";
-import Linkedin from "../../svgs/Linkedin.svg";
+import Linkedin from "../../svgs/linkedin.svg";
 import Github from "../../svgs/github.svg";
 
 export const LogoImg = styled.img`
