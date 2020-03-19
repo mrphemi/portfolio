@@ -29,6 +29,19 @@ export const Text = styled.p`
   }
 `;
 
+export const Wrapper = styled.div`
+  display: block;
+  ${breakpoints.tabSm} {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  a {
+    margin-right: 2.5rem;
+    color: inherit;
+  }
+`;
+
 export const MailLink = styled.a`
   font-size: 1.6rem;
   color: ${({ theme }) => theme.colors.text_dark};
@@ -42,5 +55,12 @@ export const MailLink = styled.a`
 
   &:hover {
     border: 0;
+  }
+`;
+
+export const SocialIconsWrapper = styled.div`
+  margin-top: 3rem;
+  ${breakpoints.tabSm} {
+    margin-top: 0;
   }
 `;

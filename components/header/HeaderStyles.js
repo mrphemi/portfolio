@@ -1,9 +1,9 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 import breakpoints from "../shared/breakpoints";
 
 import Twitter from "../../svgs/twitter.svg";
-import Instagram from "../../svgs/instagram.svg";
+import Linkedin from "../../svgs/Linkedin.svg";
 import Github from "../../svgs/github.svg";
 
 export const LogoImg = styled.img`
@@ -56,11 +56,21 @@ export const GithubIcon = styled(Github)`
   }
 `;
 
-export const InstagramIcon = styled(Instagram)`
+export const LinkedInIcon = styled(Linkedin)`
   &:hover {
     transform: scale(1.09);
     color: ${({ theme }) => theme.colors.primary};
   }
+`;
+
+const headerAnimation = keyframes`
+from {
+    background-position: 0 0;
+}
+
+to {
+    background-position: 0 -300px;
+}
 `;
 
 export const Title = styled.h1`
@@ -69,10 +79,17 @@ export const Title = styled.h1`
   color: ${({ theme }) => theme.colors.text_dark};
   text-transform: capitalize;
   line-height: 4.5rem;
-  background-image: url("/assets/double_quotes.svg");
+  /* background-image: url("/assets/double_quotes.svg");
   background-position: 0 4rem;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   padding: 6rem 0 10rem;
+  background: url(https://res.cloudinary.com/mrphemi/image/upload/v1584628727/bubble_zlir7w.png)
+    repeat;
+  background-size: 300px auto;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: ${headerAnimation} 12s infinite linear;
 
   ${breakpoints.tabMd} {
     font-size: 5rem;

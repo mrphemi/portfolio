@@ -10,7 +10,7 @@ import {
   HorizontalLine,
   SocialWrapper,
   TwitterIcon,
-  InstagramIcon,
+  LinkedInIcon,
   GithubIcon,
   Wrapper
 } from "./HeaderStyles";
@@ -28,18 +28,18 @@ const Home = () => {
           <HorizontalLine />
           <IconsWrapper>
             <Link href="//github.com/mrphemi">
-              <a>
+              <a target="_blank" rel="noopener noreferrer">
                 <GithubIcon />
               </a>
             </Link>
             <Link href="//twitter.com/mrphemi">
-              <a>
+              <a target="_blank" rel="noopener noreferrer">
                 <TwitterIcon />
               </a>
             </Link>
-            <Link href="//www.instagram.com/mr_phemi/">
-              <a>
-                <InstagramIcon />
+            <Link href="//linkedin.com/in/kayode-oluwafemi-b6918413b/">
+              <a target="_blank" rel="noopener noreferrer">
+                <LinkedInIcon />
               </a>
             </Link>
           </IconsWrapper>

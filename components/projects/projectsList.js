@@ -2,7 +2,7 @@ const projects = [
   {
     title: "Rest countries app",
     description:
-      "A website to explore countries and their information. You can also switch the theme from dark to white and vice versa. Countries and their related information are fetched from the Rest countries API. This is a Frontendmentor.io challenge.",
+      "A website to explore countries and their related information. This is a Frontendmentor.io challenge.",
     img: "/assets/rest_countries.png",
     live: "//csb-wiknv.netlify.com",
     repo: "//github.com/mrphemi/rest_countries",

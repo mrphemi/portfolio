@@ -34,10 +34,10 @@ export const Text = styled.p`
 export const ProjectsList = styled.div`
   margin-top: 4rem;
   display: grid;
-  grid-column-gap: 4rem;
-  grid-row-gap: 6rem;
+  grid-row-gap: 8rem;
 
   ${breakpoints.tabLg} {
+    grid-column-gap: 4rem;
     grid-row-gap: 6rem;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -46,14 +46,27 @@ export const ProjectsList = styled.div`
 export const ProjectItem = styled.div``;
 
 export const ProjectImg = styled.img`
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
   width: 100%;
-  border-radius: 1rem;
   box-shadow: 0 10px 15px -3px rgba(226, 232, 240, 1),
     0 4px 6px -2px rgba(226, 232, 240, 1);
 `;
 
+export const ProjectInfoWrapper = styled.div`
+  padding: 2rem;
+  box-shadow: 0 10px 15px -3px rgba(226, 232, 240, 1),
+    0 4px 6px -2px rgba(226, 232, 240, 1);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+`;
+
 export const ProjectTitle = styled(Heading)`
-  margin: 2rem 0;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  ${breakpoints.tabMd} {
+    font-size: 2.8rem;
+  }
 `;
 
 export const ProjectDescription = styled(Text)`
