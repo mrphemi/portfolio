@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 import Twitter from "../../svgs/twitter.svg";
-import Linkedin from "../../svgs/Linkedin.svg";
+import Linkedin from "../../svgs/linkedin.svg";
 
 import {
   Heading,
