@@ -6,7 +6,7 @@ const projects = [
     img: "/assets/rest_countries.png",
     live: "//csb-wiknv.netlify.com",
     repo: "//github.com/mrphemi/rest_countries",
-    stack: ["javascript", "react", "CSS modules"]
+    stack: ["javascript", "react", "CSS modules"],
   },
   {
     title: "url shortener",
@@ -15,7 +15,7 @@ const projects = [
     img: "/assets/shortlyy.png",
     live: "//shortlyy.netlify.com",
     repo: "//github.com/mrphemi/url-shortener",
-    stack: ["javascript", "react", "sass"]
+    stack: ["javascript", "react", "sass"],
   },
   {
     title: "exploremoviez",
@@ -24,17 +24,17 @@ const projects = [
       "A movie explorer website created with Reactjs. Movies are fetched from the TMDB Api.",
     live: "//exploremoviez.netlify.com",
     repo: "//github.com/mrphemi/exploremoviez",
-    stack: ["javascript", "react", "redux", "scss"]
+    stack: ["javascript", "react", "redux", "scss"],
   },
   {
     title: "bantu studio",
     img: "/assets/bantu.png",
     description:
       "A digital studio portfolio. This is an unfinished project from my previous company.",
-    live: "//naitrons.github.io/bantustudio",
-    repo: "/",
-    stack: ["HTML", "CSS", "scss", "javascript", "jQuery"]
-  }
+    live: "//bantu-studio.netlify.app",
+    repo: "//github.com/mrphemi/bantustudio",
+    stack: ["HTML", "CSS", "scss", "javascript", "jQuery"],
+  },
 ];
 
 export default projects;
