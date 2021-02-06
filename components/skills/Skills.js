@@ -7,17 +7,19 @@ import {
   Skill,
   SkillText,
   BlueCircle,
-  Text
+  Text,
 } from "./SkillsStyles";
 
 const skills = [
   "HTML5",
   "CSS3",
-  "javascript",
-  "react",
-  "redux",
+  "javascript (ES6)",
+  "reactJS",
+  "nodeJS",
+  "Java",
+  "SQL",
+  "MongoDB",
   "git",
-  "node js"
 ];
 
 const Skills = () => {
@@ -29,8 +31,7 @@ const Skills = () => {
         Self development is very important as a software developer. Over the
         years, I've learnt and added a couple of technologies to my skillset and
         I plan to explore more technologies and add more skills under my belt.
-        Below are a list of technologies, tools and languages I've had some
-        experience with.
+        Below are a list of technologies, tools and languages I've worked with.
       </Text>
 
       <SkillsList>

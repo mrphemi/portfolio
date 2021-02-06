@@ -12,7 +12,7 @@ import {
   TwitterIcon,
   LinkedInIcon,
   GithubIcon,
-  Wrapper
+  Wrapper,
 } from "./HeaderStyles";
 
 const Home = () => {
@@ -46,9 +46,9 @@ const Home = () => {
         </SocialWrapper>
         <Title>
           hello i'm kayode <br />
-          front end <ColoredText>developer</ColoredText>,
+          software <ColoredText>developer</ColoredText>,
           <br />
-          creator and tech enthusiast
+          creative and tech enthusiast
         </Title>
       </Wrapper>
     </>
