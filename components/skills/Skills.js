@@ -13,13 +13,14 @@ import {
 const skills = [
   "HTML5",
   "CSS3",
-  "javascript (ES6)",
-  "reactJS",
-  "nodeJS",
-  "Java",
-  "SQL",
-  "MongoDB",
-  "git",
+  "javascript (ES6, Node.js)",
+  "typescript",
+  "react.js",
+  "next.js",
+  "scss",
+  "tailwindcss",
+  "git & github",
+  "Visual studio code",
 ];
 
 const Skills = () => {

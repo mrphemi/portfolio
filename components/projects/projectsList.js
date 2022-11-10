@@ -4,7 +4,7 @@ const projects = [
     description:
       "A website to explore countries and their related information. This is a Frontendmentor.io challenge.",
     img: "/assets/rest_countries.png",
-    live: "//csb-wiknv.netlify.com",
+    live: "//rest-countries-chi-one.vercel.app",
     repo: "//github.com/mrphemi/rest_countries",
     stack: ["javascript", "react", "CSS modules"],
   },
