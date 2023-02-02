@@ -126,10 +126,7 @@ export const Cta = styled.div`
     text-transform: capitalize;
     font-weight: 700;
   }
-
-  &:last-of-type {
-    margin-left: 5rem;
-  }
+  gap: 5rem;
 `;
 
 export const LinkIcon = styled(ExternalLink)`
