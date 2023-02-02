@@ -44,6 +44,14 @@ const projects = [
     repo: "",
     stack: ["Next.js, Tailwindcss, Storyblok CMS"],
   },
+  {
+    title: "True Global",
+    img: "/assets/true.png",
+    description: "Investment company based in London.",
+    live: "//true.global",
+    repo: "",
+    stack: ["Next.js, Tailwindcss, Storyblok CMS"],
+  },
 ];
 
 export default projects;
