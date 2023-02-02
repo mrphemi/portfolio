@@ -17,7 +17,7 @@ import {
   StackText,
   ProjectCtas,
   Cta,
-  LinkIcon
+  LinkIcon,
 } from "./ProjectStyles";
 
 import projects from "./projectsList";
@@ -55,14 +55,16 @@ const Projects = () => {
                     </a>
                   </Link>
                 </Cta>
-                <Cta>
-                  <Link href={project.repo}>
-                    <a target="_blank">
-                      <span>github</span>
-                      <LinkIcon />
-                    </a>
-                  </Link>
-                </Cta>
+                {project?.repo && (
+                  <Cta>
+                    <Link href={project.repo}>
+                      <a target="_blank">
+                        <span>github</span>
+                        <LinkIcon />
+                      </a>
+                    </Link>
+                  </Cta>
+                )}
               </ProjectCtas>
             </ProjectInfoWrapper>
           </ProjectItem>
