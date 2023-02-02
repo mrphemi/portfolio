@@ -33,7 +33,16 @@ const projects = [
       "A digital studio portfolio. This is an unfinished project from my previous company.",
     live: "//bantu-studio.netlify.app",
     repo: "//github.com/mrphemi/bantustudio",
-    stack: ["HTML", "CSS", "scss", "javascript", "jQuery"],
+    stack: ["HTML", "SCSS", "javascript", "jQuery"],
+  },
+  {
+    title: "George Grace Represents",
+    img: "/assets/ggreps.png",
+    description:
+      "George Grace Represents is an illustration agency established in London in 2011.",
+    live: "//ggreps.com",
+    repo: "",
+    stack: ["Next.js, Tailwindcss, Storyblok CMS"],
   },
 ];
 

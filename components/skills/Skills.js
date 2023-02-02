@@ -20,7 +20,6 @@ const skills = [
   "scss",
   "tailwindcss",
   "git & github",
-  "Visual studio code",
 ];
 
 const Skills = () => {
