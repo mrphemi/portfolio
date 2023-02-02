@@ -42,7 +42,7 @@ const projects = [
       "George Grace Represents is an illustration agency established in London in 2011.",
     live: "//ggreps.com",
     repo: "",
-    stack: ["Next.js, Tailwindcss, Storyblok CMS"],
+    stack: ["Next.js", "Tailwindcss", "Storyblok CMS"],
   },
   {
     title: "True Global",
@@ -50,7 +50,7 @@ const projects = [
     description: "Investment company based in London.",
     live: "//true.global",
     repo: "",
-    stack: ["Next.js, Tailwindcss, Storyblok CMS"],
+    stack: ["Next.js", "Tailwindcss", "Storyblok CMS"],
   },
 ];
 
