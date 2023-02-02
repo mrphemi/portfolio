@@ -113,6 +113,7 @@ export const StackText = styled.span`
 export const ProjectCtas = styled.div`
   margin-top: 3rem;
   display: flex;
+  gap: 5rem;
 `;
 
 export const Cta = styled.div`
@@ -126,7 +127,6 @@ export const Cta = styled.div`
     text-transform: capitalize;
     font-weight: 700;
   }
-  gap: 5rem;
 `;
 
 export const LinkIcon = styled(ExternalLink)`
