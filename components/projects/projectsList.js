@@ -2,11 +2,11 @@ const projects = [
   {
     title: "Rest countries app",
     description:
-      "A website to explore countries and their related information. This is a Frontendmentor.io challenge.",
+      "A website to explore countries and their related information.",
     img: "/assets/rest_countries.png",
     live: "//rest-countries-chi-one.vercel.app",
     repo: "//github.com/mrphemi/rest_countries",
-    stack: ["javascript", "react", "CSS modules"],
+    stack: ["React", "CSS modules"],
   },
   {
     title: "url shortener",
@@ -15,7 +15,7 @@ const projects = [
     img: "/assets/shortlyy.png",
     live: "//shortlyy.netlify.com",
     repo: "//github.com/mrphemi/url-shortener",
-    stack: ["javascript", "react", "sass"],
+    stack: ["React", "SCSS"],
   },
   {
     title: "exploremoviez",
@@ -24,17 +24,17 @@ const projects = [
       "A movie explorer website created with Reactjs. Movies are fetched from the TMDB Api.",
     live: "//exploremoviez.netlify.com",
     repo: "//github.com/mrphemi/exploremoviez",
-    stack: ["javascript", "react", "redux", "scss"],
+    stack: ["React", "Redux", "SCSS"],
   },
-  {
-    title: "bantu studio",
-    img: "/assets/bantu.png",
-    description:
-      "A digital studio portfolio. This is an unfinished project from my previous company.",
-    live: "//bantu-studio.netlify.app",
-    repo: "//github.com/mrphemi/bantustudio",
-    stack: ["HTML", "SCSS", "javascript", "jQuery"],
-  },
+  // {
+  //   title: "bantu studio",
+  //   img: "/assets/bantu.png",
+  //   description:
+  //     "A digital studio portfolio. This is an unfinished project from my previous company.",
+  //   live: "//bantu-studio.netlify.app",
+  //   repo: "//github.com/mrphemi/bantustudio",
+  //   stack: ["HTML", "SCSS", "javascript", "jQuery"],
+  // },
   {
     title: "George Grace Represents",
     img: "/assets/ggreps.png",
