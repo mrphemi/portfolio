@@ -26,15 +26,6 @@ const projects = [
     repo: "//github.com/mrphemi/exploremoviez",
     stack: ["React", "Redux", "SCSS"],
   },
-  // {
-  //   title: "bantu studio",
-  //   img: "/assets/bantu.png",
-  //   description:
-  //     "A digital studio portfolio. This is an unfinished project from my previous company.",
-  //   live: "//bantu-studio.netlify.app",
-  //   repo: "//github.com/mrphemi/bantustudio",
-  //   stack: ["HTML", "SCSS", "javascript", "jQuery"],
-  // },
   {
     title: "George Grace Represents",
     img: "/assets/ggreps.png",
@@ -51,6 +42,15 @@ const projects = [
     live: "//true.global",
     repo: "",
     stack: ["Next.js", "Tailwindcss", "Storyblok CMS"],
+  },
+  {
+    title: "Studio Notion",
+    img: "/assets/studio-notion.png",
+    description:
+      "Studio notion is a media and content business based in the United Kingdom",
+    live: "//studionotion.com",
+    repo: "",
+    stack: ["Next.js", "Tailwindcss"],
   },
 ];
 
