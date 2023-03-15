@@ -20,17 +20,17 @@ const Info = () => {
           Hey there, I'm Kayode, a creative and detailed-oriented software
           developer with a passion for building state-of-the-art, user-friendly
           websites and applications. I consider myself a problem solver who
-          loves taking on new and exciting challenges. I also consider myself
-          flexible, as I am always open to learning new technologies and love
-          learning from my colleagues and team mates.
+          loves taking on new and exciting challenges.
         </Text>
 
         <Text>
-          I am currently a student at the University of Northampton on a journey
-          to acquire a masters degree in Computing. During my spare time, I've
-          been studying embedded and mobile technologies (Arduino, React Native
-          and Android) and I hope to incorporate any of these skills and
-          knowledge in my future projects.
+          I've worked on a wide range of web development projects and I'm
+          confident in my ability to build clean, efficient code that fulfils
+          project specifications. As a software developer, I am committed to
+          continuous learning and development. I recognise that the industry is
+          rapidly evolving, and I make it a point to keep current on the latest
+          trends and innovations. I am continuously seeking for new challenges
+          and ways to broaden my expertise.
         </Text>
       </TextWrapper>
     </>

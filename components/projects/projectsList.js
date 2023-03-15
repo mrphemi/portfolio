@@ -11,7 +11,7 @@ const projects = [
   {
     title: "url shortener",
     description:
-      "A frontendmentor.io challenge built with Reactjs using the rel.link API to shorten URL's.",
+      "A frontendmentor.io challenge built with Reactjs to shorten URL's.",
     img: "/assets/shortlyy.png",
     live: "//shortlyy.netlify.com",
     repo: "//github.com/mrphemi/url-shortener",
@@ -47,7 +47,7 @@ const projects = [
     title: "Studio Notion",
     img: "/assets/studio-notion.png",
     description:
-      "Studio notion is a media and content business based in the United Kingdom",
+      "Studio notion is a media and content business based in the UK",
     live: "//studionotion.com",
     repo: "",
     stack: ["Next.js", "Tailwindcss"],
