@@ -9,15 +9,6 @@ const projects = [
     stack: ["React", "CSS modules"],
   },
   {
-    title: "url shortener",
-    description:
-      "A frontendmentor.io challenge built with Reactjs to shorten URL's.",
-    img: "/assets/shortlyy.png",
-    live: "//shortlyy.netlify.com",
-    repo: "//github.com/mrphemi/url-shortener",
-    stack: ["React", "SCSS"],
-  },
-  {
     title: "exploremoviez",
     img: "/assets/exploremoviez.png",
     description:
@@ -25,6 +16,15 @@ const projects = [
     live: "//exploremoviez.netlify.com",
     repo: "//github.com/mrphemi/exploremoviez",
     stack: ["React", "Redux", "SCSS"],
+  },
+  {
+    title: "Flox",
+    description:
+      "flox empowers teams large and small to view and manage their entire software inventory.",
+    img: "/assets/flox.png",
+    live: "//floxdev.com",
+    repo: "",
+    stack: ["Next.js", "Tailwindcss", "Markdown", "Mdx"],
   },
   {
     title: "George Grace Represents",
