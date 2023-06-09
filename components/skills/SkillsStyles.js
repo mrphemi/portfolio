@@ -22,7 +22,6 @@ export const Text = styled.p`
   font-size: 1.6rem;
   color: ${({ theme }) => theme.colors.text};
   line-height: 2.8rem;
-  word-spacing: 0.3rem;
   letter-spacing: 0.03rem;
   ${breakpoints.tabLg} {
     width: 70%;
@@ -64,6 +63,5 @@ export const SkillText = styled.span`
   font-weight: 700;
   text-transform: capitalize;
   margin-left: 0.6rem;
-  word-spacing: 0.3rem;
   letter-spacing: 0.03rem;
 `;

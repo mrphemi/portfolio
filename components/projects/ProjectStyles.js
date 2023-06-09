@@ -24,7 +24,6 @@ export const Text = styled.p`
   font-size: 1.6rem;
   color: ${({ theme }) => theme.colors.text};
   line-height: 2.8rem;
-  word-spacing: 0.3rem;
   letter-spacing: 0.03rem;
   ${breakpoints.tabLg} {
     width: 80%;
@@ -106,7 +105,6 @@ export const StackText = styled.span`
   text-transform: capitalize;
   margin-left: 0.6rem;
   line-height: 2.8rem;
-  word-spacing: 0.3rem;
   letter-spacing: 0.03rem;
 `;
 

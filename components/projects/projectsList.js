@@ -18,15 +18,6 @@ const projects = [
     stack: ["Next.js", "Tailwindcss", "Markdown", "Mdx"],
   },
   {
-    title: "George Grace Represents",
-    img: "/assets/ggreps.png",
-    description:
-      "George Grace Represents is an illustration agency established in London in 2011.",
-    live: "//ggreps.com",
-    repo: "",
-    stack: ["Next.js", "Tailwindcss", "Storyblok CMS"],
-  },
-  {
     title: "True Global",
     img: "/assets/true.png",
     description: "Investment company based in London.",
@@ -42,6 +33,15 @@ const projects = [
     live: "//studionotion.com",
     repo: "",
     stack: ["Next.js", "Tailwindcss"],
+  },
+  {
+    title: "George Grace Represents",
+    img: "/assets/ggreps.png",
+    description:
+      "George Grace Represents is an illustration agency established in London in 2011.",
+    live: "//ggreps.com",
+    repo: "",
+    stack: ["Next.js", "Tailwindcss", "Storyblok CMS"],
   },
   {
     title: "Badur Foundation",

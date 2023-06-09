@@ -18,7 +18,6 @@ export const Text = styled.p`
   font-size: 1.6rem;
   color: ${({ theme }) => theme.colors.text};
   line-height: 2.8rem;
-  word-spacing: 0.3rem;
   letter-spacing: 0.03rem;
   margin-bottom: 4rem;
   ${breakpoints.tabLg} {
@@ -46,7 +45,6 @@ export const MailLink = styled.a`
   font-size: 1.6rem;
   color: ${({ theme }) => theme.colors.text_dark};
   line-height: 2.8rem;
-  word-spacing: 0.3rem;
   letter-spacing: 0.03rem;
   padding-bottom: 0.3rem;
   font-weight: 700;
