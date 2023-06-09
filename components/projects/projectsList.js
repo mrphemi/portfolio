@@ -1,14 +1,5 @@
 const projects = [
   {
-    title: "Rest countries app",
-    description:
-      "A website to explore countries and their related information.",
-    img: "/assets/rest_countries.png",
-    live: "//rest-countries-chi-one.vercel.app",
-    repo: "//github.com/mrphemi/rest_countries",
-    stack: ["React", "CSS modules"],
-  },
-  {
     title: "exploremoviez",
     img: "/assets/exploremoviez.png",
     description:
@@ -51,6 +42,15 @@ const projects = [
     live: "//studionotion.com",
     repo: "",
     stack: ["Next.js", "Tailwindcss"],
+  },
+  {
+    title: "Badur Foundation",
+    img: "/assets/badur.png",
+    description:
+      "Badur Foundation is a registered charity in England and Wales.",
+    live: "//badurfoundation.org",
+    repo: "",
+    stack: ["Next.js", "Tailwindcss", "GraphQL", "DatoCMS"],
   },
 ];
 
