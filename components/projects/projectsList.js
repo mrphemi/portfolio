@@ -37,7 +37,7 @@ const projects = [
 		img: "/assets/exploremoviez.png",
 		description:
 			"A movie explorer website created with Reactjs. Movies are fetched from the TMDB Api.",
-		live: "//exploremoviez.netlify.com",
+		live: "//exploremoviez.netlify.app",
 		repo: "//github.com/mrphemi/exploremoviez",
 		stack: ["React", "Redux", "SCSS"],
 	},
